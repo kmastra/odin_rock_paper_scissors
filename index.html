@@ -3,9 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="logic.js"></script> 
+  <title>Rock Paper Scissors Game</title>
+  <script src="logic.js" defer></script> 
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="header">
+    Rock Paper Scissors Game
+  </div>
+  <div id="gameWindow">
+    <h2 id="scores">Player: 0 Computer: 0</h2>
+    <h2 id="rounds">Round: 0</h2>
+
+    
+    <div id="roundResult">
+      <h3 id="status">Who won?</h3>
+      <button id="nextRound">Next Round</button>
+    </div>
+
+    <div id="choice">
+      <h3>Choose carefully!</h3>
+      <ul>
+        <li><button id="rock">Rock</button></li>
+        <li><button id="paper">Paper</button></li>
+        <li><button id="scissor">Scissor</button></li>
+      </ul>
+      <p>Hint: Make your choice to start the next round!</p>
+    </div>
+
+  </div>
+  <div class="footer">
+    The Odin Project ❤️
+  </div>
 </body>
 </html>

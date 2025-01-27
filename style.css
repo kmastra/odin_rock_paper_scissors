@@ -1,0 +1,52 @@
+.header {
+    height: 44px;
+    background: darkmagenta;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 12px 16px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #gameWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: 0;
+    padding: 30px;
+  }
+
+  #choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #roundResult {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
